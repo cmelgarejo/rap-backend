@@ -10465,6 +10465,11 @@
     "sendmail" "^1.6.1"
     "strapi-utils" "3.6.8"
 
+"strapi-provider-upload-local-path@^3.6.1-alpha.13":
+  "integrity" "sha512-4EQGKs5n/paNrh3IV8H1yLJHnjGyuBNbgBeDtQHLfmn56URGEThkn+modx1ddRDs0eQvtAHJmixIu5Xjf1S6uA=="
+  "resolved" "https://registry.npmjs.org/strapi-provider-upload-local-path/-/strapi-provider-upload-local-path-3.6.1-alpha.13.tgz"
+  "version" "3.6.1-alpha.13"
+
 "strapi-provider-upload-local@3.6.8":
   "integrity" "sha512-GkedrjO+T4DN649Ak0SMSS5Vdta0AoZRt9+IWLO9TGLZ7hjtIjnB60kGf0fQKspIhbS7DUqtwuzQAXTd8fXJOg=="
   "resolved" "https://registry.npmjs.org/strapi-provider-upload-local/-/strapi-provider-upload-local-3.6.8.tgz"
@@ -10720,10 +10725,10 @@
   "resolved" "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz"
   "version" "2.0.1"
 
-"stripe@^8.109.0":
-  "integrity" "sha512-EQLgqFiX1wNQEeve6QnUcGIby6XtXXzbzEWPJiZ68qFj02YFjNjLLxl9atueKgUQ+YRbrMAlrc6ECwvm+cf/Rw=="
-  "resolved" "https://registry.npmjs.org/stripe/-/stripe-8.197.0.tgz"
-  "version" "8.197.0"
+"stripe@^8.199.0":
+  "integrity" "sha512-Bc5Zfp6eOOCdde9x5NPrAczeGSKuNwemzjsfGJXWtpbUfQXgJujzTGgkhx2YuzamqakDYJkTgf9w7Ry2uY8QNA=="
+  "resolved" "https://registry.npmjs.org/stripe/-/stripe-8.199.0.tgz"
+  "version" "8.199.0"
   dependencies:
     "@types/node" ">=8.1.0"
     "qs" "^6.6.0"

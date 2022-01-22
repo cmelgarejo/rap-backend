@@ -14,9 +14,7 @@
       "type": "MIT"
     }
   ],
-  "devDependencies": {},
   "dependencies": {
-    "stripe": "^8.199.0",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
     "strapi-connector-mongoose": "3.6.8",
@@ -27,7 +25,9 @@
     "strapi-plugin-i18n": "3.6.8",
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-users-permissions": "3.6.8",
-    "strapi-utils": "3.6.8"
+    "strapi-provider-upload-local-path": "^3.6.1-alpha.13",
+    "strapi-utils": "3.6.8",
+    "stripe": "^8.199.0"
   },
   "author": {
     "name": "Christian Melgarejo"
