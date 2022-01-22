@@ -24,5 +24,5 @@ EXPOSE 1337
 # We need to define the command to launch when we are going to run the image.
 # We use the keyword ‘CMD’ to do that.
 # The following command will execute "npm start".
-CMD ["npm", "start"]
 WORKDIR /
+CMD ["npm", "start"]
