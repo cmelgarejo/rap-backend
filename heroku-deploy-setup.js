@@ -25,9 +25,9 @@ rl.question('Enter the name of the Heroku app to create: ', (answer) => {
   execSync(`heroku config:set DATABASE_PORT=${match[4]}`);
   execSync(`heroku config:set DATABASE_NAME=${match[5]}`);
 
-  console.log(`Heroku app "${answer}" is set up! ✅`);
-  console.log(`⚠️ IMPORTANT ⚠️ Your app is not deployed yet!`);
-  console.log(`To deploy your app, run "git push heroku"`);
+  console.info(`Heroku app "${answer}" is set up! ✅`);
+  console.info(`⚠️ IMPORTANT ⚠️ Your app is not deployed yet!`);
+  console.info(`To deploy your app, run "git push heroku"`);
 
   rl.close();
 });
