@@ -1,9 +1,14 @@
 // config/plugins.js
 module.exports = ({ env }) => ({
   upload: {
-    provider: 'local-path',
+    provider: "aws-s3",
     providerOptions: {
-      path: env('UPLOADS_PATH') || './public/uploads',
+      accessKeyId: env("AWS_ACCESS_KEY_ID"),
+      secretAccessKey: env("AWS_ACCESS_SECRET"),
+      region: env("AWS_REGION"),
+      params: {
+        Bucket: env("AWS_BUCKET"),
+      },
     },
   },
 });
