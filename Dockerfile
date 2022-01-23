@@ -12,6 +12,7 @@ RUN npm i
 # The second parameter is the path where to put the file on the image.
 # ‘.’ or ‘/’ means the file will be put in the image root folder.
 COPY favicon.png .
+COPY favicon.ico .
 COPY public/robots.txt public/
 COPY extensions/ extensions/
 COPY api/ api/
